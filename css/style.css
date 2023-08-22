@@ -18,6 +18,11 @@
     min-height: auto;
     border: 2px solid #b38f00;
     box-shadow: 5px 5px 5px gray;
+    transition: all .2s ease-in-out;
+  }
+
+  .grid-img:hover {
+    transform: scale(1.1);
   }
   
   .nav {
@@ -29,19 +34,27 @@
 
   .nav-items {
     width: 33vw;
-  }
-
-  .navigate {
     transition: all .2s ease-in-out;
-    
   }
 
-  .navigate:hover {
+  .nav-items:hover {
     transform: scale(1.1);
   }
 
   .search {
-    width: 27vw;
+    width: 31vw;
+  }
+
+  .search::placeholder {
+    font-style: italic;
+  }
+
+  .inp-sea-ani {
+    transition: all .2s ease-in-out;
+  }
+
+  .inp-sea-ani:hover {
+    transform: scale(1.1);
   }
   
   body {
