@@ -65,14 +65,11 @@
   border: 2px solid #b38f00;
   box-shadow: 5px 5px 5px gray;
   opacity: 0.5;
-}
-.grid-img:hover {
   animation: fade-in;
   animation-name: fade-in;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
-
 body {
   background-color: white;
 }
@@ -139,4 +136,8 @@ footer {
   color: white;
   margin-left: 2%;
   line-height: 35%;
+}
+
+b {
+  color: #7f344a;
 }/*# sourceMappingURL=style.css.map */
