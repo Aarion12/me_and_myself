@@ -1,145 +1,142 @@
+/*animations/transitions*/
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*Animations/transitions end*/
+.grow {
+  transition: all 0.5s ease;
+  color: #b38f00;
+}
+.grow:hover {
+  color: #b38f00;
+  transform: scale(1.1);
+}
+
+.mainh {
+  background-image: url(/assets/headbk.jpg);
+  border: 2px solid #b38f00;
+  padding: 40px;
+  color: white;
+}
+
+.nav {
+  margin-top: 75px;
+  margin-left: 35%;
+  font-size: 20px;
+}
+
+.search {
+  width: 100%;
+}
+
+.subh {
+  color: #7c3d4e;
+  text-align: center;
+  font-size: 30px;
+}
+
+.slogan {
+  font-style: italic;
+}
+
 .grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    grid-gap: 10px;
-    max-width: 50%;
-    max-height: 50%;
-    min-width: 40vw;
-    min-height: auto;
-  }
-  
-  .grid-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    max-height: 100%;
-    min-width: 20vw;
-    min-height: auto;
-    border: 2px solid #b38f00;
-    box-shadow: 5px 5px 5px gray;
-    transition: all .2s ease-in-out;
-  }
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-gap: 10px;
+  max-width: 50%;
+  max-height: 50%;
+}
 
-  .grid-img:hover {
-    transform: scale(1.1);
-  }
-  
-  .nav {
-           margin-top: 75px;
-           margin-left: 35%;
-           font-size: 20px;
-           
-  }
+.grid-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  border: 2px solid #b38f00;
+  box-shadow: 5px 5px 5px gray;
+  opacity: 0.5;
+}
+.grid-img:hover {
+  animation: fade-in;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
 
-  .nav-items {
-    width: 33vw;
-    transition: all .2s ease-in-out;
-  }
+body {
+  background-color: white;
+}
 
-  .nav-items:hover {
-    transform: scale(1.1);
-  }
+main {
+  margin-left: 5%;
+}
 
-  .search {
-    width: 31vw;
-  }
+.maintext {
+  max-width: 50%;
+}
 
-  .search::placeholder {
-    font-style: italic;
-  }
+form {
+  margin-left: 20px;
+}
 
-  .inp-sea-ani {
-    transition: all .2s ease-in-out;
-  }
+p {
+  font-size: 16px;
+}
 
-  .inp-sea-ani:hover {
-    transform: scale(1.1);
-  }
-  
-  body {
-          background-color: white;
-          }
-  
-  form {
-           margin-left: 20px;
-           }
-  
-  .space {
-            max-height: 500vh;
-            height: 48vh;
-            }
-  
-  footer {
-            height: 5vh;
-            background-color: #7f344a;
-            border: 2px solid #b38f00;
-            padding: 0px 0px 6% 0px;      
-            }
-      
-  .footerp {
-            color: white;
-            margin-left: 2%;
-            max-height: 2rem;
-            line-height: 0.2rem;
-            }
-      
-  p {
-        font-size: 16px;
-        }
-  
-      
-  a {
-        color: #b38f00;
-        }
-  
-  .inline {
-    display: inline-block;
-  }
-  
-  .inline-emphasis {
-    font-style: italic;
-    display: inline-block;
-  }
-  
-  .mainh {
-    background-image: url(/assets/headbk.jpg);
-    border: 2px solid #b38f00;
-    padding: 40px;
-    color: white
-  }
-  
-  .subh {
-    color: #7c3d4e;
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  main {
-    margin-left: 5%;
-  }
-  
-  .slogan {
-    font-style: italic;
-  }
-  
-  .maintext {
-    max-width: 50%;
-  }
-  
-  .quote {
-    font-style: italic;
-  }
-  
-  .underline {
-    text-decoration: underline;
-  }
-  
-  .me {
-    width: 35%;
-    height: 45%;
-    max-width: 100%;
-    min-width: 40vw;
-    min-height: auto;
-    border: 2px solid #b38f00;
-  }
+a {
+  color: #b38f00;
+}
+a:hover {
+  color: #7c3d4e;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.inline-emphasis {
+  font-style: italic;
+  display: inline-block;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.me {
+  width: 35%;
+  height: 45%;
+  max-width: 100%;
+  border: 2px solid #b38f00;
+}
+
+.space {
+  height: 500px;
+}
+
+footer {
+  height: 5%;
+  background-color: #7f344a;
+  border: 2px solid #b38f00;
+  padding: 0px 0px 6% 0px;
+}
+
+.footerp {
+  color: white;
+  margin-left: 2%;
+  line-height: 35%;
+}/*# sourceMappingURL=style.css.map */
