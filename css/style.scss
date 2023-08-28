@@ -1,4 +1,4 @@
-/*animations/transitions*/
+/*animations/transitions-------------------------*/
 
 @mixin grow{
     transition: all .5s ease;
@@ -16,7 +16,7 @@
     100% {opacity: 1}
 }
 
-/*Animations/transitions end*/
+/*Animations/transitions end------------------------*/
 
 
 .grow {
@@ -71,10 +71,6 @@
         animation-name: fade-in;
         animation-duration: 1s;
         animation-fill-mode: forwards;
-
-    &:hover {
-        
-  }
 }
   
   body {
@@ -122,32 +118,6 @@
     text-decoration: underline;
   }
   
-  .card {
-    width: 20vw;
-  }
-
- .card-title {
-
- }
- 
-  .card-body {
-
-  }
-
-  .card-text {
-
-  }
-
-  .btn btn-primary {
-    width: 5vw;
-  }
-  
-  .me {
-    width: 100%;
-    height: 100%;
-    border: 2px solid #b38f00;
-  }
-  
   .space {
     height: 500px;
   }
@@ -175,4 +145,14 @@
     }
   }
   
-    
+  /*About Us Page-------------------------------*/
+
+.accordion-button {
+  background-color: white;
+}
+
+.me {
+  width: 15%;
+  height: auto;
+  border: 2px solid #b38f00;
+}
