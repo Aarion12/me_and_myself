@@ -28,19 +28,33 @@
     border: 2px solid #b38f00;
     padding: 40px;
     color: white;
+    margin: 1%;
   }
   
   .nav {
-    margin-top: 75px;
-    margin-left: 35%;
+    margin: 5% 30% 0% 30%;
     font-size: 20px;
   }
   
-  .search {
-    width: 100%;
+.search {
+    width: 32.2rem;
   }
-  
-  .subh {
+
+.btn {
+  color: #b38f00;
+  height: 3rem;
+}
+
+.btn:hover {
+  background-color:#7c3d4e;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+.subh {
     color: #7c3d4e;
     text-align: center;
     font-size: 30px;
@@ -50,7 +64,7 @@
     font-style: italic;
   }
   
-  .grid {
+.grid {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
@@ -59,7 +73,7 @@
     max-height: 50%;
   }
   
-  .grid-img {
+ .grid-img {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -123,7 +137,8 @@
   }
   
   footer {
-    height: 5%;
+    height: 1%;
+    margin: 1%;
     background-color: #7f344a;
     border: 2px solid #b38f00;
     padding: 0px 0px 6% 0px;
@@ -138,12 +153,6 @@
   b {
     color: #7f344a;
   }
-
-  @media only screen and (max-width: 600px) {
-    .card {
-      min-width: 30vw;
-    }
-  }
   
   /*About Us Page-------------------------------*/
 
@@ -155,4 +164,18 @@
   width: 15%;
   height: auto;
   border: 2px solid #b38f00;
+}
+
+/*Media Queries ------------------------------------*/
+
+@media only screen and (max-width: 600px) {
+    .card {
+      min-width: 30vw;
+    }
+    body {
+      margin: 5% 5% 0% 5%;
+  }
+    .search {
+      margin-right: 2%;
+  }
 }
