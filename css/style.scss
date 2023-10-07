@@ -41,7 +41,7 @@
   }
 
 .btn {
-  color: #b38f00;
+  color: #7c3d4e;
   height: 3rem;
 }
 
@@ -50,7 +50,7 @@
 }
 
 .darkMode {
-  background-color: black;
+  background-color: #1a1a1a;
   color: white;
 }
 
@@ -79,7 +79,7 @@
     height: 100%;
     max-height: 100%;
     border: 2px solid #b38f00;
-    box-shadow: 5px 5px 5px gray;
+    box-shadow: 5px 5px 5px black;
     opacity: .5;
     animation: fade-in;
         animation-name: fade-in;
@@ -170,7 +170,7 @@
 
 @media only screen and (max-width: 600px) {
     .card {
-      min-width: 30vw;
+      min-width: 18rem;
     }
     body {
       margin: 5% 5% 0% 5%;
@@ -178,4 +178,9 @@
     .search {
       margin-right: 2%;
   }
+}
+
+.slide-in {
+  opacity: 1 !important;
+  transform: translateX(0);
 }
