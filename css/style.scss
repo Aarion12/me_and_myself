@@ -26,9 +26,8 @@
 .mainh {
     background-image: url(/assets/headbk.jpg);
     border: 2px solid #b38f00;
-    padding: 40px;
+    padding: 3%;
     color: white;
-    margin: 1%;
   }
   
   .nav {
@@ -41,7 +40,7 @@
   }
   
 .search {
-    width: 32.2rem;
+    max-width: 32.2rem;
     
   }
 
@@ -142,17 +141,17 @@
   }
   
   footer {
-    height: 1vh;
+    max-height: 18vh;
     margin: 1%;
     background-color: #7f344a;
     border: 2px solid #b38f00;
-    padding: 0px 0px 6% 0px;
+    padding: 1% 0px 3% 2%;
   }
-  
-  .footerp {
+
+  .footerp{
+    line-height: 2rem;
     color: white;
-    margin-left: 2%;
-    line-height: 35%;
+
   }
 
   b {
