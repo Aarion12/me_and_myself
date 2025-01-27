@@ -1,190 +1,199 @@
 /*animations/transitions-------------------------*/
 
-@mixin grow{
-    transition: all .5s ease;
-    color: #b38f00;
+@mixin grow {
+	transition: all 0.5s ease;
+	color: #b38f00;
 
-    &:hover {
-        color: #b38f00;
-        transform: scale(1.1);
-    }
+	&:hover {
+		color: #b38f00;
+		transform: scale(1.1);
+	}
 }
 
 @keyframes fade-in {
-    0% {opacity: 0}
-    50% {opacity: .5}
-    100% {opacity: 1}
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100% {
+		opacity: 1;
+	}
 }
 
 /*Animations/transitions end------------------------*/
 
-
 .grow {
-    @include grow;
+	@include grow;
 }
 
 .mainh {
-    background-image: url(/assets/headbk.jpg);
-    border: 2px solid #b38f00;
-    padding: 3%;
-    color: white;
-  }
-  
-  .nav {
-    font-size: 20px;
-    margin: 10% 30% 0% 30%;
-  }
+	background-image: url(/assets/headbk.jpg);
+	border: 2px solid #b38f00;
+	padding: 3%;
+	color: white;
+}
 
-  #navigation {
-    padding-left: 8%;
-  }
-  
+.nav {
+	font-size: 20px;
+	margin: 10% 30% 0% 30%;
+}
+
 .search {
-    max-width: 32.2rem;
-    
-  }
+	max-width: 32.2rem;
+}
 
 .btn {
-  color: #7c3d4e;
-  height: 3rem;
+	color: #7c3d4e;
+	height: 3rem;
 }
 
 .btn:hover {
-  background-color:#7c3d4e;
+	background-color: #7c3d4e;
 }
 
 .darkMode {
-  background-color: #1a1a1a;
-  color: white;
+	background-color: #1a1a1a;
+	color: white;
 }
 
 .subh {
-    color: #7c3d4e;
-    text-align: center;
-    font-size: 30px;
-  }
-  
-  .slogan {
-    font-style: italic;
-  }
-  
-.grid {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 50% 50%;
-    grid-gap: 10px;
-    max-width: 50%;
-    max-height: 50%;
-  }
-  
- .grid-img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    max-height: 100%;
-    border: 2px solid #b38f00;
-    box-shadow: 5px 5px 5px black;
-    opacity: .5;
-    animation: fade-in;
-        animation-name: fade-in;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
+	color: #7c3d4e;
+	text-align: center;
+	font-size: 30px;
 }
-  
-  body {
-    background-color: white;
-  }
-  
-  main {
-    margin-left: 5%;
-  }
-  
-  .maintext {
-    max-width: 50%;
-  }
-  
-  form {
-    margin-left: 20px;
-  }
-  
-  p {
-    font-size: 16px;
-  }
-  
-  a {
-    color: #b38f00;
 
-    &:hover {
-        color: #7c3d4e;
-    }
-  }
-  
-  .inline {
-    display: inline-block;
-  }
-  
-  .inline-emphasis {
-    font-style: italic;
-    display: inline-block;
-  }
-  
-  .quote {
-    font-style: italic;
-  }
-  
-  .underline {
-    text-decoration: underline;
-  }
-  
-  .space {
-    height: 500px;
-  }
-  
-  footer {
-    max-height: 18vh;
-    margin: 1%;
-    background-color: #7f344a;
-    border: 2px solid #b38f00;
-    padding: 1% 0px 3% 2%;
-  }
+.slogan {
+	font-style: italic;
+}
 
-  .footerp{
-    line-height: 2rem;
-    color: white;
+.grid {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 50% 50%;
+	grid-gap: 10px;
+	max-width: 50%;
+	max-height: 50%;
+}
 
-  }
+.grid-img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	max-height: 100%;
+	border: 2px solid #b38f00;
+	box-shadow: 5px 5px 5px black;
+	opacity: 0.5;
+	animation: fade-in;
+	animation-name: fade-in;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
 
-  b {
-    color: #7f344a;
-  }
-  
-  /*About Us Page-------------------------------*/
+body {
+	background-color: white;
+}
+
+main {
+	margin-left: 5%;
+}
+
+.maintext {
+	max-width: 50%;
+}
+
+form {
+	margin-left: 20px;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: #b38f00;
+
+	&:hover {
+		color: #7c3d4e;
+	}
+}
+
+.inline {
+	display: inline-block;
+}
+
+.inline-emphasis {
+	font-style: italic;
+	display: inline-block;
+}
+
+.quote {
+	font-style: italic;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.space {
+	height: 500vh;
+}
+
+.footerContainer {
+	max-height: 18vh;
+	display: flex;
+	margin: 1%;
+	background-color: #7f344a;
+	border: 2px solid #b38f00;
+}
+
+.footerHeader {
+	color: white;
+	align-self: center;
+	font-size: 20px;
+	padding: 0% 0% 0% 0%;
+}
+
+.footerp {
+	line-height: 2rem;
+	color: white;
+	padding: 3% 1% 1% 1%;
+
+
+}
+
+b {
+	color: #7f344a;
+}
+
+/*About Us Page-------------------------------*/
 
 .accordion-button {
-  background-color: white;
+	background-color: white;
 }
 
 .me {
-  width: 15%;
-  height: auto;
-  border: 2px solid #b38f00;
+	width: 15%;
+	height: auto;
+	border: 2px solid #b38f00;
 }
 
 /*Media Queries ------------------------------------*/
 
 @media only screen and (max-width: 600px) {
-    .card {
-      min-width: 18rem;
-    }
-    body {
-      margin: 5% 5% 0% 5%;
-  }
-    .search {
-      margin-right: 2%;
-  }
+	.card {
+		min-width: 18rem;
+	}
+	body {
+		margin: 5% 5% 0% 5%;
+	}
+	.search {
+		margin-right: 2%;
+	}
 }
 
 .slide-in {
-  opacity: 1 !important;
-  transform: translateX(0);
+	opacity: 1 !important;
+	transform: translateX(0);
 }
