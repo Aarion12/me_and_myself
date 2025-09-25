@@ -1,0 +1,5 @@
+make the surreal header move with scrolling and make text a link
+fix nav bar to only have 1 line
+dark mode to save across all pages
+form text field end at same point
+make accordion element pretty

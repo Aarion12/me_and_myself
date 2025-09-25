@@ -1,183 +1,183 @@
 /*animations/transitions-------------------------*/
 @keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0.5;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 /*Animations/transitions end------------------------*/
 .grow {
-  transition: all 0.5s ease;
-  color: #b38f00;
+    transition: all 0.5s ease;
+    color: #b38f00;
 }
 .grow:hover {
-  color: #b38f00;
-  transform: scale(1.1);
+    color: #b38f00;
+    transform: scale(1.1);
 }
 
 .mainh {
-  background-image: url(/assets/headbk.jpg);
-  border: 2px solid #b38f00;
-  padding: 3%;
-  color: white;
+    background-image: url(/assets/headbk.jpg);
+    border: 2px solid #b38f00;
+    padding: 3%;
+    color: white;
 }
 
 .nav {
-  font-size: 20px;
-  margin: 10% 30% 0% 30%;
+    font-size: 20px;
+    margin: 10% 30% 0% 30%;
 }
 
 #navigation {
-  padding-left: 8%;
+    padding-left: 8%;
 }
 
 .search {
-  max-width: 32.2rem;
+    max-width: 32.2rem;
 }
 
 .btn {
-  color: #7c3d4e;
-  height: 3rem;
+    color: #7c3d4e;
+    height: 3rem;
 }
 
 .btn:hover {
-  background-color: #7c3d4e;
+    background-color: #7c3d4e;
 }
 
 .darkMode {
-  background-color: #1a1a1a;
-  color: white;
+    background-color: #1a1a1a;
+    color: white;
 }
 
 .subh {
-  color: #7c3d4e;
-  text-align: center;
-  font-size: 30px;
+    color: #7c3d4e;
+    text-align: center;
+    font-size: 30px;
 }
 
 .slogan {
-  font-style: italic;
+    font-style: italic;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
-  grid-gap: 10px;
-  max-width: 50%;
-  max-height: 50%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 10px;
+    max-width: 50%;
+    max-height: 50%;
 }
 
 .grid-img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-  max-height: 100%;
-  border: 2px solid #b38f00;
-  box-shadow: 5px 5px 5px black;
-  opacity: 0.5;
-  animation: fade-in;
-  animation-name: fade-in;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    border: 2px solid #b38f00;
+    box-shadow: 5px 5px 5px black;
+    opacity: 0.5;
+    animation: fade-in;
+    animation-name: fade-in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 body {
-  background-color: white;
+    background-color: white;
 }
 
 main {
-  margin-left: 5%;
+    margin-left: 5%;
 }
 
 .maintext {
-  max-width: 50%;
+    max-width: 50%;
 }
 
 form {
-  margin-left: 20px;
+    margin-left: 20px;
 }
 
 p {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 a {
-  color: #b38f00;
+    color: #b38f00;
 }
 a:hover {
-  color: #7c3d4e;
+    color: #7c3d4e;
 }
 
 .inline {
-  display: inline-block;
+    display: inline-block;
 }
 
 .inline-emphasis {
-  font-style: italic;
-  display: inline-block;
+    font-style: italic;
+    display: inline-block;
 }
 
 .quote {
-  font-style: italic;
+    font-style: italic;
 }
 
 .underline {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .space {
-  height: 500px;
+    height: 500px;
 }
 
 footer {
-  max-height: 18vh;
-  margin: 1%;
-  background-color: #7f344a;
-  border: 2px solid #b38f00;
-  padding: 1% 0px 3% 2%;
+    max-height: 18vh;
+    margin: 1%;
+    background-color: #7c3d4e;
+    border: 2px solid #b38f00;
+    padding: 1% 0px 3% 2%;
 }
 
 .footerp {
-  line-height: 2vh;
-  color: white;
-  padding: 0px 0px 0px 0px;
+    line-height: 2vh;
+    color: white;
+    padding: 0px 0px 0px 0px;
 }
 
 b {
-  color: #7f344a;
+    color: #7c3d4e;
 }
 
 /*About Us Page-------------------------------*/
 .accordion-button {
-  background-color: white;
+    background-color: white;
 }
 
 .me {
-  width: 15%;
-  height: auto;
-  border: 2px solid #b38f00;
+    width: 15%;
+    height: auto;
+    border: 2px solid #b38f00;
 }
 
 /*Media Queries ------------------------------------*/
 @media only screen and (max-width: 600px) {
-  .card {
-    min-width: 18rem;
-  }
-  body {
-    margin: 5% 5% 0% 5%;
-  }
-  .search {
-    margin-right: 2%;
-  }
+    .card {
+        min-width: 18rem;
+    }
+    body {
+        margin: 5% 5% 0% 5%;
+    }
+    .search {
+        margin-right: 2%;
+    }
 }
 .slide-in {
-  opacity: 1 !important;
-  transform: translateX(0);
-}/*# sourceMappingURL=style.css.map */
+    opacity: 1 !important;
+    transform: translateX(0);
+} /*# sourceMappingURL=style.css.map */
